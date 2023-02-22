@@ -1,0 +1,60 @@
+/*changer tt les proprietes de la page */
+
+.cv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-column right-column right-column";
+    width: 1200px;
+    height: 2000px;
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
+  }
+
+.left-column{
+    grid-area: left-column;
+    padding: 50px;
+    background-color: #295197;
+    color: white;
+  }
+.right-column{
+    grid-area: right-column;
+    display: grid;
+    grid-template-rows: 250px 1fr;
+    grid-template-areas: 
+      "first-row"
+      "second-row";
+  }
+.first-row{
+    background-color: rgb(204, 204, 204);
+}
+.box{
+    margin : 70px;
+}
+body{
+    background-color: rgb(27, 27, 44);
+    color: rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    margin : 50px;
+}
+a {
+    color: rgb(143, 195, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-size: huge;
+    padding : 10px;
+    border : 3px solid rgb(221, 175, 23);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding : 10px;
+    border : 2px solid rgb(248, 151, 6);
+    border-radius: 10px;
+    text-decoration: none;
+}
